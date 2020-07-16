@@ -1,0 +1,27 @@
+.filter-checkbox {
+    position : absolute;
+    opacity : 0;
+
+    & + label {
+        cursor : pointer;
+        padding : 0;
+    }
+    
+    & + label:before {
+        content : ''; 
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: rgb(180, 177, 177);
+    }
+    
+    &:hover + label:before {
+        background : black;
+    }
+
+    &:checked + label:before {
+        background : black;
+    }
+
+}

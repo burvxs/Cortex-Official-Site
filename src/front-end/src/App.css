@@ -1,0 +1,63 @@
+
+#brain-icon{
+  position: absolute;
+  z-index: 0;
+  width: 27px;
+  height: 27px;
+}
+.spark-container{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+.spark-wrapper #spark-icon-1{
+  position: absolute;
+  animation: spark-1 .5s infinite;
+  transform: translate(10%, -10%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.spark-wrapper #spark-icon-2{
+  position: absolute;
+  animation: spark-2 0.5s infinite;
+  transform: translate(-10%, 40%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.spark-wrapper #spark-icon-3{
+  position: absolute;
+  animation: spark-3 0.5s infinite;
+  transform: translate(65%, 90%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.spark-wrapper #spark-icon-4{
+  position: absolute;
+  animation: spark-4 0.5s infinite;
+  transform: translate(110%, 50%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.spark-wrapper #spark-icon-5{
+  position: absolute;
+  animation: spark-5 0.5s infinite;
+  transform: translate(90%, 4%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
+.spark-wrapper #spark-icon-6{
+  position: absolute;
+  animation: spark-6 0.5s infinite;
+  transform: translate(50%, 30%);
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+}
